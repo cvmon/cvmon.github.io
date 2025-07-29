@@ -77,15 +77,22 @@
 						<p>Feel free to reach out if you’re interested in collaborating, have any questions about my work, or just want to connect over shared interests in technology and design. I’m always open to new opportunities, creative ideas, or simply having a conversation.</p>
 						<div class="row">
 							<div class="col-8 col-12-small">											
-							<form method="post" action="https://formspree.io/f/mblkynja">
-								<div class="row gtr-uniform gtr-50">
-									<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-									<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
-									</div>
-								</form>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
+							<!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/mblkynja"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
 							</div>
 							<div class="col-4 col-12-small">
 								<ul class="labeled-icons">
